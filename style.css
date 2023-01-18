@@ -601,12 +601,16 @@ footer {
   }
 }
 
-@media (max-width: 375px) {
-  .jumbo-container {
-    top: 150px;
+@media (max-width: 376px) {
+  body {
+    max-width: 100%;
+  }
+  #jumbotron {
+    padding-top: 120px;
   }
 
   #connect {
-    max-width: 100%;
+    width: 90%;
+    margin: 0 5%;
   }
 }
