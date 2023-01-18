@@ -55,7 +55,7 @@ a {
 
 nav {
   margin: auto 0;
-  width: 620px;
+  width: 700px;
 }
 /* Basic links */
 nav a {
@@ -603,7 +603,7 @@ footer {
 
 @media (max-width: 375px) {
   .jumbo-container {
-    top: 100px;
+    top: 150px;
   }
 
   #connect {
