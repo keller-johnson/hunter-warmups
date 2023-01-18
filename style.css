@@ -594,3 +594,13 @@ footer {
     text-align: center;
   }
 }
+
+@media (max-width: 534px) {
+  .jumbo-container {
+    top: 80px;
+  }
+
+  #connect {
+    max-width: 100%;
+  }
+}
