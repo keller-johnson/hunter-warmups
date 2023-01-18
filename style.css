@@ -595,9 +595,15 @@ footer {
   }
 }
 
-@media (max-width: 534px) {
+@media (max-width: 375px) {
+  .jumbo-container h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 375px) {
   .jumbo-container {
-    top: 80px;
+    top: 100px;
   }
 
   #connect {
