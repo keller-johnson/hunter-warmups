@@ -458,6 +458,62 @@ section#mint {
   color: #ff7b90;
 }
 
+.fifteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #3fc6da;
+  animation-delay: 0.25s;
+}
+
+.sixteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #a73bde;
+  animation-delay: 0s;
+}
+
+.seventeen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #e1922d;
+  animation-delay: 0.25s;
+}
+
+.eightteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #eb2d21;
+  animation-delay: 0.5s;
+}
+
+.nineteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #85ec3b;
+  animation-delay: 0s;
+}
+
+.twenty {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #fff83b;
+  animation-delay: 0.25s;
+}
+
+.twentyone {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #61a631;
+  animation-delay: 0.5s;
+}
+
+.twentytwo {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #ff7b90;
+  animation-delay: 0.25s;
+}
+
 /* About section */
 
 #about {
