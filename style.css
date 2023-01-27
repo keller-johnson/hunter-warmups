@@ -185,6 +185,7 @@ nav a {
 #overlay a.connect {
   width: 400px;
   margin: 0 auto 1rem auto;
+  border-radius: 0;
 }
 
 #overlay a.connect:hover {
@@ -628,6 +629,12 @@ footer {
   }
 }
 
+@media (max-width: 641px) {
+  .jumbo-container h1 {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 534px) {
   #about h1 {
     font-size: 2rem;
@@ -651,9 +658,26 @@ footer {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 460px) {
   .jumbo-container h1 {
-    font-size: 40px;
+    font-size: 1.9rem;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  header img.logo {
+    width: 50%;
+    padding-bottom: 10px;
+  }
+
+  .menu-bars {
+    top: 15px;
+  }
+
+  .mobile-container {
+    top: 30px;
   }
 }
 

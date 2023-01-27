@@ -24,21 +24,21 @@ function toggleNav() {
   }
 }
 
-// function connected() {
-//   connectDT.classList.toggle("wallet");
-//   if (connectDT.classList.contains("wallet")) {
-//     connectDT.innerHTML = "connected";
-//   } else {
-//     connectDT.innerHTML = "connect wallet";
-//   }
+function connected() {
+  connectDT.classList.toggle("wallet");
+  if (connectDT.classList.contains("wallet")) {
+    connectDT.innerHTML = "connected";
+  } else {
+    connectDT.innerHTML = "connect wallet";
+  }
 
-//   connect.classList.toggle("wallet");
-//   if (connect.classList.contains("wallet")) {
-//     connect.innerHTML = "connected";
-//   } else {
-//     connect.innerHTML = "connect wallet";
-//   }
-// }
+  connect.classList.toggle("wallet");
+  if (connect.classList.contains("wallet")) {
+    connect.innerHTML = "connected";
+  } else {
+    connect.innerHTML = "connect wallet";
+  }
+}
 
 // if wallet is connected change connect wallet to connected
 
@@ -47,8 +47,8 @@ function toggleNav() {
 //if wallet isnt connected and clicks mint now go to connect wallet
 
 // Eventlistener
-connect.addEventListener("click", connected);
-connectDT.addEventListener("click", connected);
+// connect.addEventListener("click", connected);
+// connectDT.addEventListener("click", connected);
 menuBars.addEventListener("click", toggleNav);
 overlay.addEventListener("click", toggleNav);
 
